@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	position: relative;
+	display: flex;
+	padding: 40px;
+	max-width: 1000px;
+	overflow-x: hidden;
+	margin: 0 auto;
+}
+.other-item img {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+}
+.prev {
+	position: fixed;
+	height: 200px;
+}
+.next {
+	top: 20;
+	right: 24%;
+	position: fixed;
+	height: 200px;
+}
